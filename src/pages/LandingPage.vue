@@ -1,24 +1,11 @@
 <script setup>
-import HelloWorld from '@/components/HelloWorld.vue';
-import { useRouter } from 'vue-router';
-import { useCurrentUser } from 'vuefire';
-import { onBeforeMount } from 'vue';
 
-const user = useCurrentUser();
-const router = useRouter();
+
 </script>
 
 <template>
 	<div>
-		<!-- <h2>Landing page</h2>
-		<dir>
-			<p>
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia,
-				molestias expedita consequatur dignissimos laboriosam recusandae ea in
-				velit delectus omnis animi perspiciatis labore cum culpa corporis
-				tempora sequi soluta numquam?
-			</p>
-		</dir> -->
+	
 		<v-card max-width="500">
 			<v-card-title>Landing Page</v-card-title>
 			<v-card-subtitle

@@ -1,11 +1,13 @@
 <script setup>
 import { useRouter } from 'vue-router';
-
+import supabase from "../../supbase"
 import { ref } from 'vue';
 
 const router = useRouter();
 const userInputs = ref({ email: '', password: '' });
 const validations = ref({ error: '', raised: false });
+
+
 
 async function login() {
 	try {
